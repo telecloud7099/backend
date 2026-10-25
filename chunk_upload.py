@@ -33,7 +33,7 @@ from uuid import UUID
 
 from fastapi import Request
 
-from backend.database import get_confirmed_chunk, record_file_chunk, UploadSession
+from database import get_confirmed_chunk, record_file_chunk, UploadSession
 from backend.hashing import StreamingHasher
 import backend.upload_progress as upload_progress
 
